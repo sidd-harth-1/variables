@@ -1,6 +1,7 @@
 name: Workflow Demo
 
-on: [push]
+on: 
+  push
 
 env:
   ACCESS_ID: ${{ vars.ACCESS_ID }}
